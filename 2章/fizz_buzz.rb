@@ -1,13 +1,14 @@
 def fizz_buzz(num)
   if num % 15 == 0
-    puts 'Fizz Buzz'
+    'Fizz Buzz'
   elsif num % 3 == 0
-    puts 'Fizz'
+    'Fizz'
   elsif num % 5 == 0
-    puts 'Buzz'
+    'Buzz'
   else
-    puts num.to_s
+    num.to_s
   end
 end
 
 fizz_buzz(1)
+fizz_buzz(2)
